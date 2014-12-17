@@ -20,7 +20,7 @@ app.set('view engine', 'handlebars');
 app.disable('etag');
 
 // Connect to our mongo database
-mongoose.connect('mongodb://localhost/react-tweets');
+mongoose.connect(process.env.MONGOLAB_URI);
 
 // Create a new ntwitter instance
 var twit = new twitter(config.twitter);
