@@ -19,5 +19,6 @@ Code repository for the tutorial by @kenwheeler: [Build A Real-Time Twitter Stre
 9. 
 
 ## Deploy on Heroku
+
 1. add mongolab:
 2. export MONGOLAB_URI=mongodb://heroku_app32592306:rmm41q8h9au4vi2e1n302nntip@ds063240.mongolab.com:63240/heroku_app32592306
